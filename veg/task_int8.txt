@@ -1,0 +1,5 @@
+a = int(input("цифру:"))
+perv = a // 10
+vtor = a % 10
+C = vtor * 10 + perv
+print(C)
