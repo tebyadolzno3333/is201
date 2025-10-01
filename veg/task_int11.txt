@@ -1,0 +1,7 @@
+a = int(input("цифру:"))
+P = a // 100
+V = a % 100 // 10
+T = a % 10
+A = P + V + T
+B = P * V * T
+print(P, V, T, A, B)
