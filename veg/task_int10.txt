@@ -1,0 +1,5 @@
+a = int(input("цифру:"))
+P = a % 10
+V = (a % 100 // 10) 
+print(P)
+print(V)
