@@ -1,8 +1,8 @@
 
 price = float(input())
-for i in range(1, 11):
-	weight = i / 10
+weight = 1.2
+while weight <= 2.0:
 	cost = weight * price
 	print(f"{weight:.1f} кг стоит {cost}")
-
+	weight += 0.2
 
